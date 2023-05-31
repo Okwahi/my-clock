@@ -1,0 +1,1 @@
+SetI(SetClock,1000);

@@ -1,0 +1,1 @@
+setInterv(SetClock,1000);

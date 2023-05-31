@@ -1,0 +1,17 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: Nobel Og 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(to right red, rgb(255, 0, 128),hsl(175,100%,50%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150vh;
+    overflow: hidden;
+}
+clock{
+    width: 300px;
+    height: 300px;
+    backgroun
+}

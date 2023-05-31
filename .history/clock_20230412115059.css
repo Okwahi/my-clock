@@ -1,0 +1,4 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: Nobel Og 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

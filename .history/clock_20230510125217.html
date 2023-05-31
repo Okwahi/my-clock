@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="clock.css">
+    <link rel="stylesheet" href="clock.js">
+    <!-- <script defer src="clock.js"></script> -->
+</head>
+<body>
+    <div class="Clock">
+        <div class="hand hour" data-hour-hand></div>
+        <div class="hand hour" data-minute-hand></div>
+        <div class="hand hour" data-second-hand></div>
+        <div class="number number1">1</div>
+        <div class="number number2">2</div>
+        <div class="number number3">3</div>
+        <div class="number number4">4</div>
+        <div class="number number5">5</div>
+        <div class="number number6">6</div>
+        <div class="number number7">7</div>
+        <div class="number number8">8</div>
+        <div class="number number9">9</div>
+        <div class="number number10">10</div>
+        <div class="number number11">11</div>
+        <div class="number number12">12</div>
+    </div>
+    <script>
+        setInterval(SetClock,1000)
+        const hourHand=document.querySelector("[data-hour-hand]")
+        const minuteHand=document.querySelector("[data-minute-hand]")
+        const secondHand=document.querySelector("[data-second-hand]")
+        function SetClock(){
+            const currentDate=new Date()
+            const secondsRation=currentDate.Getseconds() /60
+            const minuteRation=(secondsRation+CurrentDate.GetMinutes()) /60
+            const hourRation=(minuteRation+currentDate.GatHour()) /12
+            SetRotation(secondHand,secondsRatio)
+            SetRotation(minuteHand,minutesRatio)
+            SetRotation(hourHand,hoursRatio)
+        
+        }
+        function SetRotation(element,RotationRatio) {
+            Element.style.SetProperty("--Rotation",RotationRatio*360)
+        }
+        SetClock()
+        </script>
+        <p id="demo"></p>
+        <p></p>
+        <script>
+            Let x=50;
+            Let y=70;
+            Let z=40;
+
+            document.getElementById("demo").innerHTML=(x==y) +"br" +(y==z);
+        </script>
+    
+</body>
+</html>

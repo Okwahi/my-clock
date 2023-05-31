@@ -1,0 +1,1 @@
+setInterval(SetClock,1000)

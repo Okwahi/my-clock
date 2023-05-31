@@ -1,0 +1,7 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: Nobel Og 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(to right red, rgb(255, 0));
+}

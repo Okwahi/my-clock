@@ -1,0 +1,1 @@
+SetInter(SetClock,1000);
